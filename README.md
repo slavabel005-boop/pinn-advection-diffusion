@@ -6,7 +6,7 @@ c″ − Pe·c′ = 0,  x ∈ [0, 1],  c(0) = 0,  c(1) = 1,  число Пекл
 
 Точное решение (выведено аналитически):
 
-c(x) = (e^{Pe·x} − 1) / (e^{Pe} − 1).
+$$c(x) = \frac{e^{\mathrm{Pe}\,x} - 1}{e^{\mathrm{Pe}} - 1}$$.
 
 ## Метод (как в коде `pinn_advection_diffusion.py`)
 - Библиотека DeepXDE (backend PyTorch).
